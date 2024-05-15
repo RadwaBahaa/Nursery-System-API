@@ -48,7 +48,7 @@ Potential enhancements for this API could include:
 To run the API locally:
 
 1. Clone the repository:
-   *git clone https://github.com/your-username/nursery-system-api.git*
+   *git clone https://github.com/RadwaBahaa/Nursery-System-API-with-Node.js-and-MongoDB.git*
 
 2. Install dependencies:
    *cd nursery-system-api*
