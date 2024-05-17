@@ -29,11 +29,11 @@ The purpose of this project is to provide a scalable and efficient API backend f
 
 The project structure is organized following best practices in Node.js application architecture:
 
-- **Routes**: Define API routes for handling different types of requests (e.g., GET, POST, PUT, DELETE).
-- **Controllers**: Implement controller functions that handle the business logic for processing requests and interacting with the database.
-- **Models**: Define Mongoose models representing data entities (e.g., Child, Parent, Caregiver) and their schema definitions.
-- **Middleware**: Implement middleware functions for tasks such as authentication, authorization, and input validation.
-- **Utils**: Include utility functions for common tasks (e.g., generating JWT tokens, hashing passwords).
+- `Routes`: Define API routes for handling different types of requests (e.g., GET, POST, PUT, DELETE).
+- `Controllers`: Implement controller functions that handle the business logic for processing requests and interacting with the database.
+- `Models`: Define Mongoose models representing data entities (e.g., Child, Parent, Caregiver) and their schema definitions.
+- `Middleware`: Implement middleware functions for tasks such as authentication, authorization, and input validation.
+- `Utils`: Include utility functions for common tasks (e.g., generating JWT tokens, hashing passwords).
 
 ## Future Enhancements
 
@@ -48,19 +48,25 @@ Potential enhancements for this API could include:
 To run the API locally:
 
 1. Clone the repository:
-   *git clone https://github.com/RadwaBahaa/Nursery-System-API-with-Node.js-and-MongoDB.git*
+   ```sh
+   git clone https://github.com/RadwaBahaa/Nursery-System-API-with-Node.js-and-MongoDB.git
+   ```
 
-2. Install dependencies:
-   *cd nursery-system-api*
-    *npm install*
+3. Install dependencies:
+   ```sh
+   cd nursery-system-api
+   npm install
+   ```
 
-3. Set up environment variables:
+5. Set up environment variables:
 Create a .env file and configure environment variables (e.g., MongoDB connection string, JWT secret key).
 
-4. Start the server:
-   *npm start*
+6. Start the server:
+   ```sh
+   npm start
+   ```
    
-5. Access the API endpoints using tools like Postman or integrate with a front-end application.
+8. Access the API endpoints using tools like Postman or integrate with a front-end application.
  
     You can copy and paste this Markdown content into a README.md file in your project repository. Customize the content further based on your specific project details, including any additional features, usage instructions, or deployment considerations. This README.md file provides a comprehensive overview of your nursery system API, its features, technologies used, purpose, project structure, future enhancements, and instructions for getting started with running the API locally.
 
